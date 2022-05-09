@@ -1,0 +1,258 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 40px;
+    top: 40px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    width: 1440px;
+    height: 1024px;
+}
+
+.texto-principal {
+    position: absolute;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 30%;
+    left: 240px;
+    top: 168px;
+    font-size: 32px;
+    color: #0A3871;
+    background: transparent;
+    border: none;
+}
+
+.texto-resultado {
+    position: absolute;
+    font-size: 26px;
+    color: #0A3871;
+    padding: 20px;
+    width: 400px;
+    height: 28em;
+    left: 38em;
+    top: 2em;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.nenhum-texto {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1040px;
+    top: 150px;
+}
+
+.texto-nenhum {
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1045px;
+    top: 500px;
+}
+
+ .copiar {
+    position: relative; 
+    width: 16em;
+    height: 3.8em;
+    top: 740px;
+    left: 1065px;
+    border: 0.1em solid #0A3871;
+    border-radius: 1.5em;
+    color:#0A3871;
+    font-size: 18px;
+    background: #FFFFFF;
+    transition: 1s;
+ }
+
+.copiar:hover {
+    background: #0A3871;
+    color: #FFFFFF;
+ }
+
+
+.aviso-letras {
+    position: absolute;
+    display: flex;
+    width: 252px;
+    height: 18px;
+    left: 19em;
+    top: 44em;
+}
+
+.botoes {
+    position: absolute;
+    display: inline-block;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 700px;
+    gap: 5em;
+    padding: 3em;
+}
+
+.criptografar {
+    display: inline-block;
+    border: 0.1em solid #0A3871;
+    border-radius: 1.5em;
+    color:#FFFFFF;
+    font-size: 18px;
+    background: #0A3871;
+    width: 16em;
+    height: 3.8em;
+}
+
+.descriptografar {
+    display: inline-block;
+    border: 0.1em solid #0A3871;
+    border-radius: 1.5em;
+    color:#0A3871;
+    font-size: 18px;
+    background: #FFFFFF;
+    width: 16em;
+    height: 3.8em;
+}
+
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #0A3871;
+    text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+
+    html, body {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .texto-principal, .texto-resultado{
+        left: 16px;
+    }
+    
+    .texto-principal {
+        position: relative;
+        width: 330px;
+        height: 224px;
+        font-size: 25px;
+        
+    }
+
+    .texto-resultado {
+        height: 150px;
+        width: 340px;
+        top: 600px;
+       
+    }
+
+    .nenhum-texto {
+        display: none;
+    }
+
+    .botoes {
+        top: 450px;
+        left: 35px;
+    }
+    
+    .criptografar {
+        margin-bottom: 20px;
+        width: 130px;
+        font-size: 15px;
+    }
+
+    .descriptografar {
+        width: 130px;
+        font-size: 15px;
+    }
+
+    .aviso-letras {
+        left: 20px;
+        top: 430px;
+    }
+
+    .texto-nenhum {
+        top: 640px;
+        left: 45px;
+    }
+
+    .copiar {
+        left: 145px;
+        top: 550px;
+        width: 130px;
+        font-size: 15px;
+    }
+
+    .rodape {
+        top: 900px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .texto-principal, .texto-resultado {
+        left: 20px;
+    }
+
+    .texto-principal {
+        width: 650px;
+    }
+
+    .texto-resultado {
+        height: 100px;
+        width: 650px;
+        top: 600px;
+    }
+
+    .aviso-letras {
+        top: 440px;
+        left: 40px;
+    }
+
+    .nenhum-texto {
+        display: none;
+    }
+
+    .texto-nenhum {
+        width: 250px;
+        left: 250px;
+        top: 610px;
+    }
+
+    .botoes {
+        left: 100px;
+        top: 460px;
+    }
+
+    .criptografar {
+        width: 240px;
+        font-size: 16px;
+    }
+
+    .descriptografar {
+        width: 240px;
+        font-size: 16px;
+    }
+
+    .copiar {
+        height: 50px;
+        top: 750px;
+        left: 260px;
+    }
+
+    .rodape {
+        top: 900px;
+        left: 0px;
+    }
+    
+}

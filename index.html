@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" Content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de texto - Challenge Alura</title>
+
+        <!-- CSS do site e o reset -->
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <!-- fonte utilizada -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="caixa">
+                <img src="SVG/Frame 6.svg"  class="logo" alt="logo alura"> 
+            </div>
+        </header>
+
+        <main>
+            <form class="container">
+                <section class="codificar">
+                    <textarea cols="40" rows=6 class="texto-principal" placeholder="Digite seu texto" required></textarea> 
+                    <div class="botoes">
+                        <button type="button" class="criptografar" onclick="botaoCripto()">
+                            Criptografar
+                        </button>
+                        <button type="button" class="descriptografar" onclick="botaoDescripto()">
+                            Descriptografar
+                        </button>
+                    </div>
+                </section>
+
+                <section class="decodificar">
+                    <textarea cols="70" rows="10" class="texto-resultado"></textarea>
+                    <div id="nenhuma-msg">
+                        <img src="SVG/High quality products 1 1.svg" class="nenhum-texto" alt="Nenhum texto encontrado">
+                        <img src="SVG/Frame 5.svg" class="texto-nenhum" alt="Nenhum texto encontrado">
+                        <button class="copiar" onclick="botaoCopiar()">Copiar</button>
+                    </div>
+                </section>
+                
+                <img src="SVG/Frame 1.svg" class="aviso-letras" alt="Apenas letras minúsculas e sem acento">
+                
+                
+
+            </form>
+        </main>
+
+        <script src="/JS/index.js"></script>
+
+    </body>
+
+
+    <footer class="rodape">
+        <p class="copyright"> &copy; Copyright Guilherme Menezes - 2022</p>
+        <br>
+        <a href="https://www.linkedin.com/in/menezesguilherme/">LinkedIn</a>
+        <a href="https://github.com/guipmenezes">Github</a>
+    </footer>
+
+</html>
