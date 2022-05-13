@@ -1,4 +1,4 @@
-# challange-ONE-Alura
+# challenge Oracle Next Education - Alura
 Primeira Sprint - Desafio do encriptador
 
 Esse projeto é a primeira Sprint do Challange da Oracle ONE.
