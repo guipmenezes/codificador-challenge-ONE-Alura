@@ -17,7 +17,12 @@
 
   <p>Ai vai uma mensagem encriptada: "senter vobercê enterntenterndenter enterssai menternsaigenterm, é poberrqufatenter probervaiventerlmenterntenter ufatsoberufat ober enterncrimesptaidoberr."</p>
 
-  <h1 align="center">
+<h1>Tecnologias utilizadas &#128736;</h1>
+<p>&#128992; HTML</p>
+<p>&#128309; CSS</p>
+<p>&#128993; JavaScript</p>
+
+  <h1 align="center"> First Badge
     <img src="SVG/badge-sprint1.png"></img>
   </h1>
   
