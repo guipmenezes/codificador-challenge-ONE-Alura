@@ -22,7 +22,7 @@
 <p>&#128309; CSS</p>
 <p>&#128993; JavaScript</p>
 
-<h3>First Badge</h3>
+<h1>First Badge</h1>
 
 <img width="400em" height="400em" align="center" src="SVG/badge-sprint1.png"></img>
   
